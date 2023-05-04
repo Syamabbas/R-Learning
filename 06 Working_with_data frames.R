@@ -1,0 +1,6 @@
+data("diamonds")
+view(diamonds)
+head(diamonds)
+str(diamonds)
+mutate(diamonds, carat_2=carat*106)
+as_tibble(diamonds)
